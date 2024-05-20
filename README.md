@@ -1,16 +1,58 @@
 # chatapp
 
-A new Flutter project.
+# Flutter Chat App
+
+A fully-featured chat application built using Flutter and Firebase. This app supports real-time messaging, user authentication and more.
+
+## Features
+
+- **User Authentication:**
+  - Sign up and login using email and password.
+  - Profile management with profile picture updates
+
+- **Real-time Messaging:**
+  - One-to-one and group chat functionalities
+  - Support for sending images, videos, audio, and documents
+  - Read receipts and typing indicators
+  - Real-time message updates
+
+- **User Interface:**
+  - Chat list displaying recent conversations
+  - Chat screen for viewing and sending messages
+  - User search functionality
+  - Notifications for new messages
+
+## Technical Stack
+
+- **Frontend:**
+  - Flutter for building the cross-platform user interface
+  - Firebase for real-time database, authentication, and storage
+
+- **Backend:**
+  - Firebase Cloud Firestore for storing chat messages and user data
+  - Firebase Authentication for secure user sign-up and login
+  - Firebase Cloud Functions for server-side logic and notifications
+
+## Architecture
+
+- **Model-View-ViewModel (MVVM):**
+  - Models for data structures (users, messages, etc.)
+  - ViewModels for handling business logic and data preparation
+  - Views for displaying the user interface
+
+- **State Management:**
+  - Provider, Riverpod, or Bloc for managing the app’s state efficiently
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Firebase project: [Set up Firebase](https://firebase.google.com/docs/flutter/setup)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/harshitHash2/chatapp
+   cd chatapp
