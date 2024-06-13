@@ -54,5 +54,5 @@ A fully-featured chat application built using Flutter and Firebase. This app sup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/harshitHash2/chatapp
+   git clone https://github.com/harshitHash2/chatapp.git
    cd chatapp
